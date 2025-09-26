@@ -27,31 +27,3 @@ Este contenido está diseñado para GitHub Wiki (edición colaborativa) o Pages 
 3. **Testing Integración**: Postman para calls (ej.: GET /events desde app a backend). Verificar sync datos.
 4. **End-to-End**: Cypress para web (flujo usuario). Integration_test para app (escenarios móviles).
 5. **Reporte**: Generar coverage; actualizar doc si cambios.
-
-### Diagrama de Flujo del Proceso
-(Visualiza aquí con Mermaid – se renderiza automáticamente en GitHub. Si usas Draw.io, reemplaza con ![PNG](images/flujo-testing-integracion.png).)
-
-```mermaid
-graph TD
-    A([Inicio: Preparación del Entorno]) --> B[Ejecutar Tests Unitarios<br/>- Jest para Node.js/JS (auth functions)<br/>- Flutter test para Dart (UI widgets)<br/>Métrica: Cobertura >85%]
-    B --> C{Cobertura >85%?<br/>¿Tests Pasan?}
-    C -->|No| D[Corregir Código<br/>- Revisar logs en repos<br/>- Actualizar Node.js/Flutter<br/>Bucle de iteración]
-    D --> B
-    C -->|Sí| E[Testing de Integración<br/>- Postman para API calls (ej: POST /login)<br/>- Verificar sync web-app (datos eventos)<br/>Métrica: Tiempo <2s, sin errores]
-    E --> F{¿Integración Exitosa?<br/>¿Sync OK?}
-    F -->|No| G[Debug API<br/>- Chequear endpoints Node.js<br/>- Ajustar HTTP client en Flutter/JS<br/>- Verificar JWT]
-    G --> E
-    F -->|Sí| H[Testing End-to-End<br/>- Cypress para web JS (flujo login-dashboard)<br/>- Integration_test para app Flutter (navegación móvil)<br/>Métrica: Tasa defectos <5%]
-    H --> I[Generar Reporte<br/>- Logs coverage (GitHub Actions)<br/>- Actualizar doc Wiki/Trello]
-    I --> J([Fin: Proceso Completado<br/>Alineado con ISO 25010 Eficiencia/Portabilidad])
-    
-    style A fill:#e1f5fe
-    style J fill:#c8e6c9
-    style C fill:#fff3e0
-    style F fill:#fff3e0
-    style D fill:#ffcdd2
-    style G fill:#ffcdd2
-    style B fill:#f3e5f5
-    style E fill:#f3e5f5
-    style H fill:#f3e5f5
-    style I fill:#fff8e1
