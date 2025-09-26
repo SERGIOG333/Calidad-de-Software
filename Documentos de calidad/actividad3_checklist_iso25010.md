@@ -1,4 +1,5 @@
-# Implementación de Checklist de Calidad Basado en ISO 25010 para el Sistema de Control Híbrido
+# Implementación de Checklist de Calidad Basado en ISO 25010 para Sist Control
+
 
 ## Introducción
 Este documento presenta la implementación de un checklist basado en ISO 25010:2011, aplicado al Sistema de Control (backend Node.js para API segura, frontend web JavaScript para dashboards, app móvil Flutter/Dart para accesos en tiempo real). El checklist evalúa las ocho características principales en un contexto híbrido, con implementación ficticia para una revisión inicial de funcionalidades como autenticación y sincronización de datos. Enlaces: 
