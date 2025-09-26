@@ -61,13 +61,13 @@ La simulación revela un cumplimiento sólido en aspectos de producto como segur
 ## 1. Funcionalidad
 ### 1.1. Completitud
 - [x] Cumple con todos los requisitos funcionales (ej.: login y registro implementados en web/app)
-- [x] Documentación completa disponible (README en repos GitHub, pero parcial para Flutter)
-- [x] Todas las funciones implementadas (sync eventos via API Node.js; pendiente reportes avanzados)
+- [] Documentación completa disponible (README en repos GitHub, pero parcial para Flutter)
+- [] Todas las funciones implementadas (sync eventos via API Node.js; pendiente reportes avanzados)
 
 ### 1.2. Corrección
 - [x] Los resultados son los esperados (auth JWT valida correctamente)
 - [x] Sin errores en cálculos (reportes de eventos precisos en JS dashboards)
-- [x] Procesos validados (testing unitario con Jest/Flutter test, cobertura >85% de Act2)
+- [] Procesos validados (testing unitario con Jest/Flutter test, cobertura >85% de Act2)
 
 ## 2. Rendimiento
 ### 2.1. Tiempo de Respuesta
@@ -88,8 +88,8 @@ La simulación revela un cumplimiento sólido en aspectos de producto como segur
 ## 5. Seguridad
 - [x] Autenticación implementada (JWT en Node.js para web/app)
 - [x] Autorización adecuada (roles user/admin en endpoints API)
-- [x] Datos encriptados (HTTPS configurado; encriptación campos sensibles)
-- [x] Logs de seguridad (Winston en Node.js para auditar accesos fallidos)
+- [] Datos encriptados (HTTPS configurado; encriptación campos sensibles)
+- [] Logs de seguridad (Winston en Node.js para auditar accesos fallidos)
 
 ## 6. Mantenibilidad
 - [ ] Código documentado (comments en JS/Dart parciales; agregar JSDoc/full docs)
@@ -100,11 +100,11 @@ La simulación revela un cumplimiento sólido en aspectos de producto como segur
 Evaluación simulada basada en revisión de repos (SIST_CONTROL_V2 y APP_MOVIL_SIST_CONTROL). Fortalezas: Seguridad y funcionalidad alineadas con ISO 25010 para control de accesos. Debilidades: Usabilidad y mantenibilidad requieren mejoras (ej.: docs completas, optimización carga app). Evidencia de testing (Act2): Postman confirma rendimiento API. Recomendación: Iterar con Trello board para fixes (agregar tarjetas para docs y lazy loading). Cumplimiento general: 70% (14/20 ítems Sí). Enlace Form para más evaluaciones: [https://forms.gle/[ID]]. Sheet Reporte: [https://docs.google.com/spreadsheets/d/[ID]/edit].
 
 ## Resultado Final
-- [ ] ✅ Cumple con todos los criterios
-- [x] ⚠️ Cumple parcialmente (70% ítems; gaps en usabilidad/mantenibilidad, pero sólido en seguridad/rendimiento)
-- [ ] ❌ No cumple
+- [ ]  Cumple con todos los criterios
+- [x]  Cumple parcialmente (70% ítems; gaps en usabilidad/mantenibilidad, pero sólido en seguridad/rendimiento)
+- [ ]  No cumple
 
-## Análisis de Resultados (Integrado para Entrega)
+## Análisis de Resultados 
 - **Métricas Automáticas del Reporte (De Sheets)**: Cumplimiento Total: 70% (fórmula: SUM(C:C)/COUNTA=14/20). Por Sección: Funcionalidad 100%, Rendimiento 67%, Compatibilidad 100%, Usabilidad 67%, Seguridad 100%, Mantenibilidad 33%. Tasa Defectos: 30% (6 ítems No/Parcial). Gráfico: Barras muestran picos en Seguridad/Compatibilidad; valle en Mantenibilidad. (Referencia: ![Gráfico](images/grafico_checklist.png) – Sube screenshot de Sheets).
 - **Fortalezas**: Alta alineación en seguridad (100%) y funcionalidad, ideal para el Sistema de Control (protege accesos sensibles). Rendimiento validado por Act2 (<2s API).
 - **Debilidades**: Mantenibilidad baja (33%) debido a docs incompletas; usabilidad parcial (falta guía usuario). Riesgo en despliegues móviles (carga app).
