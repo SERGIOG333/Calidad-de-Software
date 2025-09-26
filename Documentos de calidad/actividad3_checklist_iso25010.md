@@ -6,7 +6,7 @@ Este documento presenta la implementación de un checklist basado en ISO 25010:2
 - [Google Sheets - Reporte Automático](https://docs.google.com/spreadsheets/d/[ID]/edit). 
 Integra análisis de Actividad 1 (modelos ISO/CMMI) y procesos de testing de Actividad 2 (cobertura >85%).
 
-## 1. Objetivos de Calidad (Adaptado de Plantilla del Profesor)
+## 1. Objetivos de Calidad 
 - [x] Verificar el cumplimiento de las 8 características ISO 25010 en el proyecto híbrido, apuntando a >80% general.
 - [x] Generar reportes automáticos para métricas cuantificables (ej.: % cumplimiento, promedios de escalas).
 - [ ] Identificar y priorizar mejoras para procesos de verificación (ej.: testing en Flutter para fiabilidad).

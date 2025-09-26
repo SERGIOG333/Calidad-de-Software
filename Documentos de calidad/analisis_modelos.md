@@ -3,7 +3,7 @@
 ## Introducción
 Este documento presenta un análisis comparativo de modelos de calidad de software aplicados al Sistema de Control, una solución híbrida con backend en Node.js, frontend web en JavaScript y aplicación móvil en Flutter/Dart. Repositorios: [Web](https://github.com/SERGIOG333/SIST_CONTROL_V2) | [App](https://github.com/SERGIOG333/APP_MOVIL_SIST_CONTROL). El análisis se basa en el taller del SENA y estándares como ISO 25010 y CMMI, con énfasis en seguridad, usabilidad y eficiencia cross-platform.
 
-## 1. Objetivos de Calidad (Adaptado de Plantilla del Profesor)
+## 1. Objetivos de Calidad 
 - [x] Identificar modelos alineados con necesidades híbridas (web/app).
 - [x] Recomendar framework para garantía de calidad en desarrollo y despliegue.
 - [ ] Establecer base para métricas en actividades subsiguientes (ej.: testing).

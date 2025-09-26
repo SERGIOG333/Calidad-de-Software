@@ -5,7 +5,7 @@ Este documento detalla el proceso de testing de integración para el Sistema de 
 
 Este contenido está diseñado para GitHub Wiki (edición colaborativa) o Pages (sitio web). Sube a `/docs/calidad/` y activa Wiki en Settings.
 
-## 1. Objetivos de Calidad (Adaptado de Plantilla del Profesor)
+## 1. Objetivos de Calidad 
 - [x] Documentar pasos para testing cross-platform con cobertura >85%.
 - [x] Visualizar flujo con diagrama para claridad colaborativa.
 - [ ] Facilitar seguimiento de tareas vía Trello para iteraciones.
